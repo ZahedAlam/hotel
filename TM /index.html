@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        .clr {
+            clear: both;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4em;
+        }
+        .container {
+            width: 960px;
+            margin: 30px auto;
+        }
+        .box {
+            background: #f4f4f4;
+            border: 1px solid #333;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        #box-2 {
+            float: left;
+            width: 68%;
+        }
+        #box-3 {
+            float: right;
+            width: 30%;
+        }
+
+        .side-menu {
+            list-style: none;
+            margin: 0 0 20px 0;
+            padding: 0;
+            background: lightblue;
+            border-radius: 5px;
+            overflow: auto;
+                    }
+        .side-menu li {
+            float: left;
+        }
+        .side-menu li a:hover {
+            background-color: lightskyblue;
+        }
+        .side-menu li a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            padding: 15px 20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div >
+        <ul class="side-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div id="box-1" class="box" >
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde hic voluptatibus id velit, consequuntur laboriosam iure nesciunt sint. Animi rerum necessitatibus ut eum pariatur quo doloribus. Id quos debitis consequatur?</p>
+    </div>
+    <div id="box-2" class="box" >
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde hic voluptatibus id velit, consequuntur laboriosam iure nesciunt sint. Animi rerum necessitatibus ut eum pariatur quo doloribus. Id quos debitis consequatur?</p>
+    </div>
+    <div id="box-3" class="box" >
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde hic voluptatibus id velit, consequuntur laboriosam iure nesciunt sint. Animi rerum necessitatibus ut eum pariatur quo doloribus. Id quos debitis consequatur?</p>
+    </div>
+    <div class="clr"></div>
+    <div id="box-4" class="box" >
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde hic voluptatibus id velit, consequuntur laboriosam iure nesciunt sint. Animi rerum necessitatibus ut eum pariatur quo doloribus. Id quos debitis consequatur?</p>
+    </div>
+</div>
+</body>
+</html>

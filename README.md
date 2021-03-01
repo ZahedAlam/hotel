@@ -1,0 +1,2 @@
+# hotel
+Simple Hotel Website
